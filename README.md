@@ -5,6 +5,7 @@ Small Swift utility that listens to a Dell USB volume knob over HID and adjusts 
 ## Requirements
 - macOS 12 or newer (tested on Apple Silicon)
 - Xcode Command Line Tools (for `swiftc`)
+- Tested with the Dell SK-8135 keyboard knob; other HID consumer-control devices may require minor adjustments.
 
 ## Download
 Clone or download this repository:
@@ -90,4 +91,3 @@ The utility now starts automatically each time you log in. To unload it later, r
 ```bash
 launchctl unload ~/Library/LaunchAgents/com.example.dellknobvolume.plist
 ```
-
