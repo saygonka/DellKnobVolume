@@ -11,7 +11,7 @@ Small Swift utility that listens to a Dell USB volume knob over HID and adjusts 
 Clone or download this repository:
 
 ```bash
-git clone https://github.com/<your-account>/DellKnobVolume.git
+git clone https://github.com/saygonka/DellKnobVolume.git
 cd DellKnobVolume
 ```
 
